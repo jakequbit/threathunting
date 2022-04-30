@@ -12,6 +12,12 @@
     - Map by specific ATT&CK ID: [ATT&CK ID to D3FEND MAPPER](https://d3fend.mitre.org/tools/attack-mapper)
 - [MITRE CAR](https://car.mitre.org/) -
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+
+<h2>Tools for the Hunt</h2>
+- Firewalls, IDS/IPS
+- Endpoint Detection and Response (Falcon, Carbon Black, MD4E)
+- DNS Monitoring (it's always DNS)
+- 
  
 <h2>IOC Analytics</h2>
 <p>These are just some open source tools I use to help enrich or give context to any traditional IOC's I might be working with.</p>
