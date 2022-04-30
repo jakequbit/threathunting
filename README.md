@@ -21,7 +21,7 @@
 - DNS Monitoring (it's always DNS)
 - 
  
-<h2>IOC Analytics</h2>
+<h4>IOC Analytics</h4>
 <p>These are just some open source tools I use to help enrich or give context to any traditional IOC's I might be working with.</p>
 
 - [DNSLytics](https://dnslytics.com/)
