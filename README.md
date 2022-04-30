@@ -1,6 +1,6 @@
 # threathunting
 <h4>All things I use (or have used) for threat hunting!</h4>
-<p>Hey! I'm glad you could make it. Below is just a hodge-podge of all the resources I use to Threat Hunt that I decided to document for others and myself. I'll try to add anecdotes and use cases next to each piece, but at the very least EVERYTHING will be a link.
+<p>Hey! I'm glad you could make it. Below is just a hodge-podge of all the resources I use to Threat Hunt. I'll try to add anecdotes and use cases next to each piece, but at the very least EVERYTHING will be a link.
 
 <h2>Frameworks</h2>
 <p>The beginning of Threat Hunting is an intimate understanding of foundational frameworks and methodologies. (It's not as deep as it sounds)</p>
