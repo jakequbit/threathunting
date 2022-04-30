@@ -5,12 +5,12 @@
 <h2>Frameworks</h2>
 <p>The beginning of Threat Hunting is an intimate understanding of foundational frameworks and methodologies. (It's not as deep as it sounds)</p>
 
-- [MITRE ATT&CK](https://attack.mitre.org) - 
+- [MITRE ATT&CK](https://attack.mitre.org)
     - To get started: [Getting Started with ATT&CK](https://medium.com/mitre-attack/getting-started/home)
 - [MITRE D3FEND](https://d3fend.mitre.org) - If you've successfully mapped to ATT&CK IDs, your stakeholders will almost certainly ask: 'Now what?'
     - You'll find the answers here: [ATT&CK Mitigations to D3FEND Technique Mappings](https://d3fend.mitre.org/mappings/attack-mitigations)
     - Map by specific ATT&CK ID: [ATT&CK ID to D3FEND MAPPER](https://d3fend.mitre.org/tools/attack-mapper)
-- [MITRE CAR](https://car.mitre.org/) -
+- [MITRE CAR](https://car.mitre.org/)
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
 <h2>Tools for the Hunt</h2>
@@ -19,7 +19,6 @@
 - Firewalls, IDS/IPS
 - Endpoint Detection and Response (Falcon, Carbon Black, MD4E)
 - DNS Monitoring (it's always DNS)
-- 
  
 <h4>IOC Analytics</h4>
 <p>These are just some open source tools I use to help enrich or give context to any traditional IOC's I might be working with.</p>
