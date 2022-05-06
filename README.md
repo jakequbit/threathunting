@@ -42,7 +42,7 @@ No list would be complete without Sysmon...
 
 - [DNSLytics](https://dnslytics.com/)
 
-<h3>Use Cases</h3>
+<h2>Use Cases</h2>
 
 This section is mostly documenting my thoughts on use cases as I go... obviously these will be more free form based on my understanding of TTPs and less about known IOCs, though I do find these ideas sometimes follow patterns of indicators of attack (IOAs)
 
