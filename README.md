@@ -24,6 +24,7 @@ General
 Let's get into it...
 
 <h4>Testing Detection Capabilities</h4>
+
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - portable detection tool by Red Canary's Atomic Red Team (it's mapped to MITRE!) 
 
 <h4>IOC Analytics</h4>
