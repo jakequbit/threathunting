@@ -15,7 +15,7 @@
 
 <h2>Tools for the Hunt</h2>
 <h4>Enterprise</h4>
-General D
+General Data Sources
 
 - SIEM (Splunk, ArcSight, LogRhythm, Elastic)
 - Firewalls, IDS/IPS (Palo Alto, Cisco, Fortinet)
