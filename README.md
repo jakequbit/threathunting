@@ -17,17 +17,16 @@
 <h4>Enterprise</h4>
 General
 
-- Firewalls, IDS/IPS
-- Endpoint Detection and Response (Falcon, Carbon Black, MD4E)
-- DNS Monitoring (it's always DNS)
-- pcap tap tap
+- SIEM (Splunk, ArcSight, LogRhythm, Elastic)
+- Firewalls, IDS/IPS (Palo Alto, Cisco, Fortinet)
+- Endpoint Detection and Response (EDR) (Falcon, Carbon Black, MD4E)
+- DNS Monitoring (it's always DNS) (SolarWinds (haaaa), Nagios, ManageEngine etc)
+- pcap tap tap (Snort, WireShark, PRTG)
 
-Let's get into it...
 
 <h4>Testing Detection Capabilities</h4>
 
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
-- 
 
 No list would be complete without Sysmon...
 
@@ -41,9 +40,18 @@ No list would be complete without Sysmon...
 
 - [DNSLytics](https://dnslytics.com/)
 
+<h3>Use Cases</h3>
+
+This section is mostly documenting my thoughts on use cases as I go... obviously these will be more free form and less about known TTPs or IOCs, though may include indicators of attack (IOAs)
+
+- Office products spawning cmd.exe or powershell.exe
+- http user agents that are anomolous or old as dirt (aka riddled with vulns)
+- internal to external connections on timed patterns on asynchronous ports
+- executives and windows auth logs, baselining the norm to identify the anomolies
+- Log4j, unfortunately this won't go away for a long time... check for outgoing LDAP or RMI traffic
+
 <h2>Excellent Reads</h2>
 <p>Got tools but need inspiration for a hunt?</p>
 
 - [THREAT HUNTING: 10 ADVERSARY BEHAVIORS TO HUNT FOR](https://www.cybersecurity-insiders.com/threat-hunting-10-adversary-behaviors-to-hunt-for/)
 - [Threat Hunting Playbook with Specific Use Cases](https://cdn2.hubspot.net/hubfs/2539398/Rank%20Software_Threat%20Hunting%20Playbook.pdf)
-
