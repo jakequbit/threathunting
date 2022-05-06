@@ -1,6 +1,6 @@
 # threathunting
 <h4>All things I use (or have used) for threat hunting!</h4>
-<p>Hey! I'm glad you could make it. Below is just a hodge-podge of all the resources I use to Threat Hunt. I'll try to add anecdotes and use cases next to each piece, but at the very least EVERYTHING will be a link.
+<p>Hey! I'm glad you could make it. Below is just a hodge-podge of all the resources I use to Threat Hunt. I'll try to add anecdotes and use cases next to each piece, but at the very least EVERYTHING will have a link.
 
 <h2>Frameworks</h2>
 <p>The beginning of Threat Hunting is an intimate understanding of foundational frameworks and methodologies. (It's not as deep as it sounds)</p>
@@ -20,12 +20,21 @@ General
 - Firewalls, IDS/IPS
 - Endpoint Detection and Response (Falcon, Carbon Black, MD4E)
 - DNS Monitoring (it's always DNS)
+- pcap tap tap
 
 Let's get into it...
 
 <h4>Testing Detection Capabilities</h4>
 
-- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - portable detection tool by Red Canary's Atomic Red Team (it's mapped to MITRE!) 
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
+- 
+
+No list would be complete without Sysmon...
+
+<h4>Sysmon</h4>
+
+- [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) - sysmon adds MUCH better logs to windows event log. You'll get entire commands for processes, file hash records (sha1,256 and md5), and see what drivers or DLLs are being loaded with signatures + more. Also, if you need a cheap way to implement better logging on windows (or linux) endpoints, this is a solid mitigation. 
+
 
 <h4>IOC Analytics</h4>
 <p>These are just some open source tools I use to help enrich or give context to any traditional IOC's I might be working with.</p>
