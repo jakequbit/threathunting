@@ -26,7 +26,12 @@ General
 
 <h4>Testing Detection Capabilities</h4>
 
+- [exploit-db](https://www.exploit-db.com/) - access to direct exploits for simulating advanced attacks in your enviornment
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
+
+<h4>Data Sources</h4>
+
+- []()
 
 No list would be complete without Sysmon...
 
@@ -42,7 +47,7 @@ No list would be complete without Sysmon...
 
 <h3>Use Cases</h3>
 
-This section is mostly documenting my thoughts on use cases as I go... obviously these will be more free form and less about known TTPs or IOCs, though may include indicators of attack (IOAs)
+This section is mostly documenting my thoughts on use cases as I go... obviously these will be more free form based on my understanding of TTPs and less about known IOCs, though I do find these ideas sometimes follow patterns of indicators of attack (IOAs)
 
 - Office products spawning cmd.exe or powershell.exe
 - http user agents that are anomolous or old as dirt (aka riddled with vulns)
@@ -50,7 +55,7 @@ This section is mostly documenting my thoughts on use cases as I go... obviously
 - executives and windows auth logs, baselining the norm to identify the anomolies
 - Log4j, unfortunately this won't go away for a long time... check for outgoing LDAP or RMI traffic
 
-<h2>Excellent Reads</h2>
+<h2>Excellent Reads/Watches</h2>
 <p>Got tools but need inspiration for a hunt?</p>
 
 - [THREAT HUNTING: 10 ADVERSARY BEHAVIORS TO HUNT FOR](https://www.cybersecurity-insiders.com/threat-hunting-10-adversary-behaviors-to-hunt-for/)
