@@ -15,11 +15,17 @@
 
 <h2>Tools for the Hunt</h2>
 <h4>Enterprise</h4>
+General
 
 - Firewalls, IDS/IPS
 - Endpoint Detection and Response (Falcon, Carbon Black, MD4E)
 - DNS Monitoring (it's always DNS)
- 
+
+Let's get into it...
+
+<h4>Testing Detection Capabilities</h4>
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - portable detection tool by Red Canary's Atomic Red Team (it's mapped to MITRE!) 
+
 <h4>IOC Analytics</h4>
 <p>These are just some open source tools I use to help enrich or give context to any traditional IOC's I might be working with.</p>
 
