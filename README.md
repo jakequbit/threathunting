@@ -14,7 +14,7 @@
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
 <h2>Getting Started: The General Playbook</h2>
-<p>Steps of Threat Hunting, trying to make the process as repeatable as process for the end goal of automation and dissemination with program metrics.</p>
+<p>Steps of Threat Hunting, trying to make the process as repeatable as possible for the end goal of automation and dissemination with program metrics.</p>
 
 1. <b>Coming up with a hypothesis:</b> this will be your 'why or what', what is the use case you're hunting for? See inspiration below.
 2. <b>Identify, process and/or collect intelligence:</b> You'll want to determine which tools and information you need. Helpful: You might find that the business is not currently collecting data that would be useful to your investigation, this itself is a potential threat to the business and should be documented!
