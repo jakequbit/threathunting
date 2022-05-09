@@ -61,6 +61,7 @@ This section is mostly documenting my thoughts on use cases as I go... obviously
 - [Threat Hunting Playbook with Specific Use Cases](https://cdn2.hubspot.net/hubfs/2539398/Rank%20Software_Threat%20Hunting%20Playbook.pdf)
 - [Yara Rules Guide](https://www.varonis.com/blog/yara-rules)
 
-<h2>Other's Repos</h2>
+<h2>Helpful Repos</h2>
 
 - [Yara Rules (Good Use Cases)](https://github.com/Yara-Rules/rules)
+- [Awesome Threat Hunting](https://github.com/0x4D31/awesome-threat-detection) - PS There's a ton of awesome lists out there for more than just Threat Hunting
