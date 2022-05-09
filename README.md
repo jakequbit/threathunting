@@ -13,6 +13,15 @@
 - [MITRE CAR](https://car.mitre.org/)
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
+<h2>Getting Started: The General Playbook</h2>
+<p>Steps of Threat Hunting, trying to make the process as repeatable as process for the end goal of automation and dissemination with program metrics.</p>
+
+1. <b>Coming up with a hypothesis:</b> this will be your 'why or what', what is the use case you're hunting for? See inspiration below.
+2. <b>Identify, process and/or collect intelligence:</b> You'll want to determine which tools and information you need. Helpful: You might find that the business is not currently collecting data that would be useful to your investigation, this itself is a potential threat to the business and should be documented!
+3. <b>Investigate:</b> Now that your data is collected and organized, start hunting! search for the criteria matching your hypothesis or use case and see what you find!
+4. <b>Scenario: Triage (others sometimes refer to this as the 'trigger'):</b> If you found evidence of a potentially compromised asset, you'll want to triage this through the IR team (unless you are also the IR team, then you'll converge your information into Root Cause Analysis (RCA))
+5. <b>Feedback / Automation:</b> Throughout the process of your hunt, were there any pieces you could automate? Any tools that you can schedule hunting tasks? Any way to improve your handoff? 
+
 <h2>Tools for the Hunt</h2>
 <h4>Enterprise</h4>
 General Data Sources
@@ -28,6 +37,7 @@ General Data Sources
 
 - [exploit-db](https://www.exploit-db.com/) - access to direct exploits for simulating advanced attacks in your enviornment
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
+- [Amass](https://github.com/OWASP/Amass) - A great way to hunt for subdomains and map out your attack surface 
 
 <h4>Data Sources / Monitoring Tools</h4>
 <p>Once you have a hypothesis, or a start/inspiration for your hunt, you'll have to find where pertinent information is collected or identify new information that should be collected.</p>
@@ -67,7 +77,7 @@ This section is mostly documenting my thoughts on use cases as I go... obviously
 - [Using Dorks to Find Vulnerable Services](https://www.youtube.com/watch?v=u_gOnwWEXiA) - a good video to get started with dorks, this could be a solid start to a find vulns to display on your HackerOne 
 - [Threat Hunting Maturity Model](http://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html) - If you're starting or leading a threat hunting program this is an excellent resource to help you understand what the capability and goals of your team should be
 - [Another Paper on the Maturity Model for Threat Hunting](https://www.threathunting.net/files/framework-for-threat-hunting-whitepaper.pdf)
-- 
+- [Threat Hunter Playbook By Roberto Rodriguez @Cyb3rWard0g](https://threathunterplaybook.com/library/windows/active_directory_replication.html) - This is gold. A literal treasure and a huge inspiration to me for starting this repo.
 
 <h2>Helpful Repos</h2>
 
