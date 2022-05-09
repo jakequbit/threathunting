@@ -29,8 +29,9 @@ General Data Sources
 - [exploit-db](https://www.exploit-db.com/) - access to direct exploits for simulating advanced attacks in your enviornment
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
 
+<h4>Data Sources / Monitoring Tools</h4>
 
-No list would be complete without Sysmon...
+In addition to the general tools used above: No list would be complete without Sysmon...
 
 <h4>Sysmon</h4>
 
