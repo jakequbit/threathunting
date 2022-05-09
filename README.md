@@ -30,6 +30,9 @@ General Data Sources
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - I use Red Canary's Atomic Red Team to test detection and imho it's the best MVP (both minimal viable product and most valuable player). (bonus: it's mapped to MITRE!) 
 
 <h4>Data Sources / Monitoring Tools</h4>
+<p>Once you have a hypothesis, or a start/inspiration for your hunt, you'll have to find where pertinent information is collected or identify new information that should be collected.</p>
+
+- [Shodan.io](https://www.shodan.io) - Shodan can be a great way to start a Threat Hunt. It's way too common to discover X system may have been public for far too long.
 
 In addition to the general tools used above: No list would be complete without Sysmon...
 
@@ -57,11 +60,16 @@ This section is mostly documenting my thoughts on use cases as I go... obviously
 <h2>Excellent Reads/Watches</h2>
 <p>Got tools but need inspiration for a hunt?</p>
 
-- [THREAT HUNTING: 10 ADVERSARY BEHAVIORS TO HUNT FOR](https://www.cybersecurity-insiders.com/threat-hunting-10-adversary-behaviors-to-hunt-for/)
-- [Threat Hunting Playbook with Specific Use Cases](https://cdn2.hubspot.net/hubfs/2539398/Rank%20Software_Threat%20Hunting%20Playbook.pdf)
-- [Yara Rules Guide](https://www.varonis.com/blog/yara-rules)
+- [THREAT HUNTING: 10 ADVERSARY BEHAVIORS TO HUNT FOR](https://www.cybersecurity-insiders.com/threat-hunting-10-adversary-behaviors-to-hunt-for/) - good use cases for hypothesis
+- [Threat Hunting Playbook with Specific Use Cases](https://cdn2.hubspot.net/hubfs/2539398/Rank%20Software_Threat%20Hunting%20Playbook.pdf) - good use cases for hypothesis
+- [Yara Rules Guide](https://www.varonis.com/blog/yara-rules) - YARA rules are searches to find files that match specific criteria you're looking for, powerful when you have a good hypothesis
+- [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) - basically an encyclopedia of dorks searches to reveal vulnerable servers and web apps via common vulnerabilities 
+- [Using Dorks to Find Vulnerable Services](https://www.youtube.com/watch?v=u_gOnwWEXiA) - a good video to get started with dorks, this could be a solid start to a find vulns to display on your HackerOne 
+- [Threat Hunting Maturity Model](http://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html) - If you're starting or leading a threat hunting program this is an excellent resource to help you understand what the capability and goals of your team should be
+- [Another Paper on the Maturity Model for Threat Hunting](https://www.threathunting.net/files/framework-for-threat-hunting-whitepaper.pdf)
+- 
 
 <h2>Helpful Repos</h2>
 
-- [Yara Rules (Good Use Cases)](https://github.com/Yara-Rules/rules)
+- [Yara Rules](https://github.com/Yara-Rules/rules) - a full repo of different types of rules for different use cases
 - [Awesome Threat Hunting](https://github.com/0x4D31/awesome-threat-detection) - PS There's a ton of awesome lists out there for more than just Threat Hunting
